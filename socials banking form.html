@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Form</title>
+    <header><h1>Donations</h1></header>
+    <link rel="stylesheet" href="banking.css">
+
+</head>
+<body>
+    <form action="banking.php" id="banking" method="post">
+        <h2>Payment information</h2>
+        <p>
+            card type:
+            <select name="card" id="card">
+            <option value="">__select a card___</option>
+            <option value="mastercard">mastercard</option>
+            <option value="rupay">rupay</option>
+            <option value="visa">visa</option>
+            </select>
+        </p>
+        <p>
+            Card number: <input type="number" name="cardnum" id="cardnum"></p>
+        <p>    expiration date: <input type="number" name="expdate" id="expdate"></p>
+           <p>  cvv: <input type="password" name="pass" id="pass">
+        </p>
+          <p>pay Now : <input type="submit" id="banking"></p>   
+          
+          
+
+
+
+
+
+
+    </form>
+    <footer>
+        <nav>
+            <a href="about us.html">About us</a>
+            <a href="#">Queries</a>
+            <a href="#">Legal doc</a>
+        </nav>
+    </footer>
+</body>
+</html>

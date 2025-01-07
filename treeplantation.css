@@ -1,0 +1,99 @@
+style.css
+{ padding:0;
+   margin:0; }
+.header
+{ min-height: 100vh;
+  width: 100%;
+  background-image:
+  linear-gradient(rgba(4, 30, 16, 0.7),
+  rgba(4, 30, 15, 0.7)),
+  url(earth.jpg);
+  background-position: center;
+  background-size:cover;
+  position: relative;}
+.nav{
+  display:flex;
+  padding: 2% 6%;
+  justify-content:space-between;
+  align-items: center;}
+.nav-links {
+  flex:1;
+  text-align: right;}
+.nav-links ul li{
+  list-style:none;
+  display: inline-block;
+  padding: 8px 12px;
+  position:relative;}
+.nav-links ul li a{
+   color:#fff;
+   text-decoration:none;
+   font-size: 13px;}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #16dd27e7;
+  display:block;
+  margin:auto;}
+.nav-links ul li:hover::after{
+  width: 100%;}
+.content{
+  width: 80%;
+  margin:auto;
+  text-align: center;
+  padding-top: 40px;}
+h1{
+    font-size: 30px;
+    font-weight: 600;}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;}
+.content-col{
+  flex-basis: 31%;
+  background: #3db661;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;}
+.content-col:hover{
+  box-shadow:0 0 20px 0px
+   rgba(0,0,0,0.2);}
+.info{
+  width: 80%;
+  margin:auto;
+  text-align: center;
+  padding-top: 40px;}
+h1{
+    font-size: 30px;
+    font-weight: 600; }
+p{
+  text-align:left;}
+.ff{
+  padding-top: 40px;
+  padding-left: 90px;}
+h2{
+  text-align:left;}
+.container {
+  position: relative;
+  font-family: Arial;}
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  right: 10px; 
+  background-color:
+   rgba(65, 61, 61, 0.705);                              
+  color: white;
+  padding-left: 20px;
+  padding-right: 80px;}
+.links rl li{
+  text-align: left;}
+.start
+{  padding-top:50px;}
+

@@ -1,0 +1,90 @@
+*
+header {
+    word-spacing: 20;}
+body {
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2cm;}
+S1 {
+       font-size: 1.6cm;
+      font-family:'Gill Sans', 'Gill Sans MT',
+      Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      padding-top: 10px;}    
+h2 {
+    text-align: center;
+    font-size: 1cm;
+    border-radius: #000000;}
+h3 {
+   display:center;
+   text-align:center ;  
+   color: rgb(255, 255, 255);
+   padding: 1px ;
+   background: #223aa8;
+   border-radius: 1px;
+   margin-bottom: 1%;
+   box-sizing: border-box; }
+img {
+    display:float;
+    position: relative; 
+    margin-left: auto;
+    margin-right:auto;
+    padding-left : 1cm;
+    padding-right: 1cm;}
+div1 {
+  font-size: 0.8cm;
+  text-align: center;}
+.plant {
+  display: block;
+  padding-left:10cm ;
+  padding-bottom: 0.5cm;
+  margin-left: auto;
+  position: relative; 
+  margin-right:auto;}
+.week {
+  text-align: center;
+  font-size: 0.8cm;
+  display: center;}
+.img2 {
+display:block;
+ padding-left: 4.5cm; 
+ margin-left: auto;
+ margin-right: auto;
+ position: relative;
+ padding-top: 2cm;
+ padding-bottom: 2cm;}
+marquee {
+  font-size: 0.6cm;}
+.topnav {
+    padding-top:0.5cm;
+    padding-bottom:0.5cm;}
+.topnav {
+    overflow: hidden;
+    background-color: #333; }
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 100px;
+    text-decoration: none;}
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;} 
+  div {
+  border: 2px solid black;
+  background-color: lightblue;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  font-size: 0.5cm;}
+
+
+
+
